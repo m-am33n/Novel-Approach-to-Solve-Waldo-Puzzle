@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/joe019/Desktop/CG/project/WaldoPuzzle/src/Waldo.cpp" "/home/joe019/Desktop/CG/project/WaldoPuzzle/src/CMakeFiles/Waldo.dir/Waldo.cpp.o"
+  "/home/aswanth/Desktop/Sem6/CG/MiniProject/WaldoPuzzle/src/Waldo.cpp" "/home/aswanth/Desktop/Sem6/CG/MiniProject/WaldoPuzzle/src/CMakeFiles/Waldo.dir/Waldo.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

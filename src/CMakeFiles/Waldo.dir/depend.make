@@ -121,12 +121,4 @@ CMakeFiles/Waldo.dir/Waldo.cpp.o: /usr/local/include/opencv2/videostab/outlier_r
 CMakeFiles/Waldo.dir/Waldo.cpp.o: /usr/local/include/opencv2/videostab/ring_buffer.hpp
 CMakeFiles/Waldo.dir/Waldo.cpp.o: /usr/local/include/opencv2/videostab/stabilizer.hpp
 CMakeFiles/Waldo.dir/Waldo.cpp.o: /usr/local/include/opencv2/videostab/wobble_suppression.hpp
-CMakeFiles/Waldo.dir/Waldo.cpp.o: /usr/local/include/opencv2/viz.hpp
-CMakeFiles/Waldo.dir/Waldo.cpp.o: /usr/local/include/opencv2/viz/types.hpp
-CMakeFiles/Waldo.dir/Waldo.cpp.o: /usr/local/include/opencv2/viz/viz3d.hpp
-CMakeFiles/Waldo.dir/Waldo.cpp.o: /usr/local/include/opencv2/viz/vizcore.hpp
-CMakeFiles/Waldo.dir/Waldo.cpp.o: /usr/local/include/opencv2/viz/widgets.hpp
-CMakeFiles/Waldo.dir/Waldo.cpp.o: /usr/local/include/opencv2/xfeatures2d.hpp
-CMakeFiles/Waldo.dir/Waldo.cpp.o: /usr/local/include/opencv2/xfeatures2d/cuda.hpp
-CMakeFiles/Waldo.dir/Waldo.cpp.o: /usr/local/include/opencv2/xfeatures2d/nonfree.hpp
 
