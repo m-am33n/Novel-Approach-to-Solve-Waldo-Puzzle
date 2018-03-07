@@ -9,7 +9,7 @@ import matplotlib.patches as patches
 import cv2
 from object_detection.utils import visualization_utils as vis_util
 model_path = 'frozen_inference_graph.pb'
-image_path='input.jpg'
+image_path='datasets/4.jpg'
 detection_graph = tf.Graph()
 with detection_graph.as_default():
     od_graph_def = tf.GraphDef()
@@ -20,7 +20,7 @@ with detection_graph.as_default():
 def load_image_into_numpy_array(image):
   (im_width, im_height) = image.size
   return np.array(image.getdata()).reshape((im_height, im_width, 3)).astype(np.uint8)
-category_index={'name':"wald	o",'id':1}
+category_index={'name':"waldo",'id':1}
 with detection_graph.as_default():
   with tf.Session(graph=detection_graph) as sess:
     image_np = load_image_into_numpy_array(Image.open(image_path))
