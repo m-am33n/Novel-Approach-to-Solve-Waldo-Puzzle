@@ -1,4 +1,5 @@
-# Waldo's Puzzle
+# Novel Approach to solve the Waldo puzzle
+
 
 This project is done under the Computer Graphics course in the 6th semester
 The project's aim is to find the position of Waldo in an image using two techniques:
