@@ -1,3 +1,3 @@
 cmake .
 make
-./Waldo images/Waldo2.jpg images/temp2.jpg
+./Waldo images/Waldo1.jpg images/temp1.jpg

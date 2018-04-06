@@ -9,7 +9,7 @@ import matplotlib.patches as patches
 import cv2
 from object_detection.utils import visualization_utils as vis_util
 model_path = 'frozen_inference_graph.pb'
-image_path='datasets/4.jpg'
+image_path='input.jpg'
 detection_graph = tf.Graph()
 with detection_graph.as_default():
     od_graph_def = tf.GraphDef()
