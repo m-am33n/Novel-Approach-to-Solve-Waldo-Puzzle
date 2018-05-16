@@ -1,0 +1,3 @@
+/home/aswanth/Desktop/Sem6/CG/MiniProject/WaldoPuzzle/src/CMakeFiles/edit_cache.dir
+/home/aswanth/Desktop/Sem6/CG/MiniProject/WaldoPuzzle/src/CMakeFiles/rebuild_cache.dir
+/home/aswanth/Desktop/Sem6/CG/MiniProject/WaldoPuzzle/src/CMakeFiles/Waldo.dir

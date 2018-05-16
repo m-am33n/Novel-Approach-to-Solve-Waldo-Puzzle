@@ -8,8 +8,10 @@ from PIL import Image
 import matplotlib.patches as patches
 import cv2
 from object_detection.utils import visualization_utils as vis_util
+
 model_path = 'frozen_inference_graph.pb'
-image_path='input.jpg'
+image_path='./inputs/inputNew.jpg'
+
 detection_graph = tf.Graph()
 with detection_graph.as_default():
     od_graph_def = tf.GraphDef()
@@ -33,15 +35,20 @@ with detection_graph.as_default():
         [boxes, scores, classes, num_detections],
         feed_dict={image_tensor: np.expand_dims(image_np, axis=0)})
     if scores[0][0] < 0.1:
-        sys.exit('Waldo not found :(')
-    print('Waldo found')
+    	print("\n\n")
+    	print("-------------------")
+        sys.exit(' Waldo not found \n-------------------')
+    print("\n\n")
+    print("-----------------")
+    print('|  Waldo found  |')
+    print("-----------------")
     vis_util.visualize_boxes_and_labels_on_image_array(image_np,np.squeeze(boxes),
         np.squeeze(classes).astype(np.int32),
         np.squeeze(scores),
         category_index,
         use_normalized_coordinates=True,
         line_thickness=8)
-    #plt.figure(figsize=(24, 16))
-    #plt.imshow(image_np)
-    #plt.show()
+    plt.figure(figsize=(24, 16))
+    plt.imshow(image_np)
+    plt.show()
     cv2.imwrite("output.png",image_np)
